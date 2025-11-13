@@ -1811,7 +1811,7 @@
                         improvements: "Increases maximum area of effect to 5 tiles in a straight line."
                     },
                     {
-                        level: gold,
+                        level: "gold",
                         name: "Gold Hoe",
                         price: 10000,
                         requirements: [
@@ -1824,7 +1824,7 @@
                         improvements: "Increases maximum area of effect to a 3x3 area (9 corresponding tiles)."
                     },
                     {
-                        level: iridium,
+                        level: "iridium",
                         name: "Iridium Hoe",
                         price: 25000,
                         requirements: [
@@ -1878,7 +1878,7 @@
                         improvements: "Needed to break boulders on the Farm. In the Mines, can break rocks on floors 40-79 in 1 hit, and Quarry Mine rocks in 2 hits. Breaks Copper Nodes in 1 hit, Iron Nodes in 2 hits, Gold Nodes in 3 hits, and Iridium Nodes in 6 hits. Can break boulders in 4 hits. Can break the barrier inside the Mines that blocks the player from talking with the Dwarf."
                     },
                     {
-                        level: gold,
+                        level: "gold",
                         name: "Gold Pickaxe",
                         price: 10000,
                         requirements: [
@@ -1891,7 +1891,7 @@
                         improvements: "Can break a meteorite. In the Mines, can break rocks on floors 80-120 in 1 hit. Breaks Copper and Iron Nodes in 1 hit, Gold Nodes in 2 hits, and Iridium Nodes in 4 hits. Can break boulders in the Quarry Mine in 4 hits."
                     },
                     {
-                        level: iridium,
+                        level: "iridium",
                         name: "Iridium Pickaxe",
                         price: 25000,
                         requirements: [
@@ -1945,7 +1945,7 @@
                         improvements: "\tCan chop Large Logs. 6 hits to chop a fully-grown tree, and 3 hits for a small stump. 3 hits for a stage 4 tree, and 2 hits for a stage 3 tree and below."
                     },
                     {
-                        level: gold,
+                        level: "gold",
                         name: "Gold Axe",
                         price: 10000,
                         requirements: [
@@ -1958,7 +1958,7 @@
                         improvements: "4 hits to chop a fully-grown tree, and 2 hits for a small stump. 2 hits for a stage 4 tree, and one hit for a stage 3 tree and below."
                     },
                     {
-                        level: iridium,
+                        level: "iridium",
                         name: "Iridium Axe",
                         price: 25000,
                         requirements: [
@@ -2012,7 +2012,7 @@
                         improvements: "Capacity increased to 70 charges. Increases maximum area of effect to 5 tiles in a straight line."
                     },
                     {
-                        level: gold,
+                        level: "gold",
                         name: "Gold Watering Can",
                         price: 10000,
                         requirements: [
@@ -2025,7 +2025,7 @@
                         improvements: "Capacity increased to 85 charges. Increases maximum area of effect to a 3x3 area (9 corresponding tiles)."
                     },
                     {
-                        level: iridium,
+                        level: "iridium",
                         name: "Iridium Watering Can",
                         price: 25000,
                         requirements: [
@@ -2079,7 +2079,7 @@
                         improvements: "When deleting items, reclaim 30% of their monetary value."
                     },
                     {
-                        level: gold,
+                        level: "gold",
                         name: "Gold Trash Can",
                         price: 5000,
                         requirements: [
@@ -2092,7 +2092,7 @@
                         improvements: "When deleting items, reclaim 45% of their monetary value."
                     },
                     {
-                        level: iridium,
+                        level: "iridium",
                         name: "Iridium Trash Can",
                         price: 12500,
                         requirements: [
@@ -2180,7 +2180,7 @@
                         improvements: "Can find 4 to 10 ores and up to 2 special items from panning. Has a small chance to spawn another panning spot."
                     },
                     {
-                        level: gold,
+                        level: "gold",
                         name: "Gold Pan",
                         price: 10000,
                         requirements: [
@@ -2193,7 +2193,7 @@
                         improvements: "Can find 5 to 11 ores and up to 3 special items from panning. Slightly higher chance to spawn another panning spot."
                     },
                     {
-                        level: iridium,
+                        level: "iridium",
                         name: "Iridium Pan",
                         price: 25000,
                         requirements: [
