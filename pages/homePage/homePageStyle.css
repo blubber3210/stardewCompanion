@@ -1,0 +1,22 @@
+div.categoryContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.categoryDiv {
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 80px;
+    width: 80px;
+    padding: 5px;
+    background-color: #5B8AB3;
+    color: #FFFFFF;
+}
+
+div.categoryDiv:hover {
+    cursor: pointer;
+    background-color: #5b8ab346;
+    color: #5B8AB3;
+}

@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Afacad', sans-serif;
+    background-color: #FFFFFF;
 }
 
 #app {
@@ -14,23 +15,58 @@ body {
     grid-template-areas: 'header' 'main' 'footer';
 }
 
+button {
+    background-color: #5B8AB3;
+    color: #FFFFFF;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 5px;
+    padding: 5px 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #5b8ab346;
+    color: #5B8AB3;
+}
+
 header {
+    padding-top: 20px;
+    padding-bottom: 10px;
     grid-area: header;
     text-align: center;
+    background-color:#5B8AB3
 }
 
 main {
     grid-area: main;
+    text-align: center;
 }
 
 footer {
     grid-area: footer;
+    text-align: center;
 }
 
-title {
+.title {
     font-family: "Roboto Mono", monospace;
+    color: #FFFFFF;
+    font-weight: 600;
+    margin-bottom: 0.2em;
+}
+
+.subTitle {
+    font-family: "Roboto Mono", monospace;
+    color: #5B8AB3;
+    font-weight: 600;
+    margin-bottom: 0.2em;
 }
 
 .robotoText {
     font-family: "Roboto Mono", monospace;
 }
+
+.mediumImg {
+    width: 40px;
+}
+

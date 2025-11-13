@@ -36,11 +36,8 @@ function drawHeader(){
     <h1 class="title"> title </h1>
 
     <div>
-        <button onclick="changePage('homePage')">home</button>
-        <button onclick="changePage('allCropsPage')">all crops</button>
-        <button onclick="changePage('allForageablesPage')">all forageables</button>
-        <button onclick="changePage('communityCenterPage')">community center</button>
-        <button onclick="changePage('notesPage')">notes</button>
+        <button class="header" onclick="changePage('homePage')">home</button>
+        <button class="header" onclick="changePage('notesPage')">notes</button>
     </div>
     
     `;
@@ -54,11 +51,7 @@ function drawFooter(){
     return html;
 }
 
-function drawHomePage(){
-    let html = `home`;
 
-    return html;
-}
 
 
 

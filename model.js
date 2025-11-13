@@ -1,6 +1,6 @@
  const model = {
     app: {
-        currentPage: 'homePage',
+        currentPage: 'allCropsPage',
 
         pages: [
             'homePage',
@@ -20,12 +20,23 @@
             content: '',
         },
 
+        allCropsPage: {
+            selectedSeason: '',
+        },
+
         reachPerfectionPage: {
             itemCompleted: '',
         },
     },
 
     data: {
+        seasons: [
+            "spring",
+            "summer",
+            "fall",
+            "winter",
+        ],
+
         allCrops: [
             {
                 id: 1,
