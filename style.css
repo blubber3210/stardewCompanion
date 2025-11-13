@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Afacad', sans-serif;
+}
+
+#app {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 'header' 'main' 'footer';
+}
+
+header {
+    grid-area: header;
+    text-align: center;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+title {
+    font-family: "Roboto Mono", monospace;
+}
+
+.robotoText {
+    font-family: "Roboto Mono", monospace;
+}
