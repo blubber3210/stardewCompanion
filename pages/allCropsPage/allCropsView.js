@@ -16,7 +16,7 @@ function drawAllCropsPage(){
 
 function drawSeasonOptions(){
     let seasons = model.data.seasons;
-    let html = `seasons: `;
+    let html = ``;
 
     for(let i = 0; i < model.data.seasons.length; i++){
         html += `
