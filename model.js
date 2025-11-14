@@ -1,6 +1,6 @@
  const model = {
     app: {
-        currentPage: 'allCropsPage',
+        currentPage: 'homePage',
 
         pages: [
             'homePage',
