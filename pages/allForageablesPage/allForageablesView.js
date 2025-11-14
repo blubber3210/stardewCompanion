@@ -1,7 +1,11 @@
 
 
 function drawAllForageablesPage(){
-    let html = `forage`;
+    let html = `
+    <h2 class="subTitle">forage</h2>
+
+    ${drawSeasonOptions()}
+    `;
 
     return html;
 }
