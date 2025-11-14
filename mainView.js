@@ -33,7 +33,7 @@ function updateView(){
 function drawHeader(){
     let html = `
     
-    <h1 class="title"> title </h1>
+    <h1 class="title"> Stardew Companion </h1>
 
     <div>
         <button class="header" onclick="changePage('homePage')">home</button>
